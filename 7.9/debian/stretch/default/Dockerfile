@@ -1,4 +1,4 @@
-FROM sonarqube:7.9-community
+FROM sonarqube:7.9.1-community
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
