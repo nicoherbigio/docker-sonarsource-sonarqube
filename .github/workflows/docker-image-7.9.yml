@@ -11,7 +11,9 @@ env:
   DOCKER_IMAGE_CONTEXT_PATH: 7.9/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
     nicoherbigde/sonarsource-sonarqube:7.9
+    nicoherbigio/sonarsource-sonarqube:7.9
     nicoherbigde/sonarsource-sonarqube:7.9.5
+    nicoherbigio/sonarsource-sonarqube:7.9.5
 
 jobs:
   build-and-push:
