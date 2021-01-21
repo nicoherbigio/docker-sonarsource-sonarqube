@@ -2,7 +2,7 @@
 # making sure that when a shared image needs to be updated, only a single line needs to be changed.
 
 FROM sonarqube:8.5.1-community AS origin
-FROM nicoherbigio/adoptopenjdk-openjdk:11.0.8 AS base
+FROM nicoherbigde/adoptopenjdk-openjdk:11.0.8 AS base
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
