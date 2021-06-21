@@ -1,8 +1,8 @@
 # Assign aliases to the common images to improve readability and
 # making sure that when a shared image needs to be updated, only a single line needs to be changed.
 
-FROM sonarqube:8.9-community AS origin
-FROM nicoherbigde/adoptopenjdk-openjdk:11.0.10 AS base
+FROM sonarqube:8.9.1-community AS origin
+FROM nicoherbigde/adoptopenjdk-openjdk:11.0.11 AS base
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
@@ -27,7 +27,7 @@ RUN set -ex \
 # Install SonarSource SonarQube
 
 ENV SONARQUBE_HOME=/opt/sonarqube
-ENV SONAR_VERSION=8.9.0.43852
+ENV SONAR_VERSION=8.9.1.44547
 
 ENV SQ_DATA_DIR=/opt/sonarqube/data
 ENV SQ_EXTENSIONS_DIR=/opt/sonarqube/extensions
