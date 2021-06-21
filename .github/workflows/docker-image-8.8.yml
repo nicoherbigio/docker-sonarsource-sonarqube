@@ -1,4 +1,4 @@
-name: Docker Image CI for version 8.7
+name: Docker Image CI for version 8.8
 
 on:
   push:
@@ -8,12 +8,12 @@ on:
     - cron: '0 3 * * 1'
 
 env:
-  DOCKER_IMAGE_CONTEXT_PATH: 8.7/debian/default/
+  DOCKER_IMAGE_CONTEXT_PATH: 8.8/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
-    nicoherbigde/sonarsource-sonarqube:8.7
-    nicoherbigio/sonarsource-sonarqube:8.7
-    nicoherbigde/sonarsource-sonarqube:8.7.1
-    nicoherbigio/sonarsource-sonarqube:8.7.1
+    nicoherbigde/sonarsource-sonarqube:8.8
+    nicoherbigio/sonarsource-sonarqube:8.8
+    nicoherbigde/sonarsource-sonarqube:8.8.0
+    nicoherbigio/sonarsource-sonarqube:8.8.0
 
 jobs:
   build-and-push:
