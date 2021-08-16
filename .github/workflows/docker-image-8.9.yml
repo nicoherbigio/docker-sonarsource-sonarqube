@@ -15,8 +15,8 @@ env:
   DOCKERHUB_IMAGE_TAGS: |
     nicoherbigde/sonarsource-sonarqube:8.9
     nicoherbigio/sonarsource-sonarqube:8.9
-    nicoherbigde/sonarsource-sonarqube:8.9.1
-    nicoherbigio/sonarsource-sonarqube:8.9.1
+    nicoherbigde/sonarsource-sonarqube:8.9.2
+    nicoherbigio/sonarsource-sonarqube:8.9.2
 
 jobs:
   build-and-push:
